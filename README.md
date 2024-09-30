@@ -1,12 +1,2 @@
 
 
-    #include <stdio.h>
-
-int main()
-{ float principal,rate,time,si;
-    printf("Enter principal,rate,time");
-     scanf("%f%f%f",&principal,&rate,&time);
-     si=(principal*rate*time)/100;
-     printf("my simple interest is:%f",si);
-    return 0;
-}
