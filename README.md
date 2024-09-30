@@ -1,12 +1,21 @@
-- 👋 Hi, I’m @Vikaspurviya
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
 
-<!---
-Vikaspurviya/Vikaspurviya is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+#include <stdio.h>
+
+int main()
+{int radius,length,width,side,circle,rectangle,square;
+printf("Enter radius:");
+scanf("%d",&radius);
+float π=3.1415;
+circle=π*radius*radius;
+printf("area for circle %d",circle);
+printf("\nenter the length & width:");
+scanf("%d%d",&length,&width); 
+rectangle=length*width;
+printf("area of rectangle:%d", rectangle );
+printf("\nEnter side:");
+scanf("%d%d",&side,&side);
+square=side*side;
+printf("area of square:%d", square);
+
+    return 0;}
+    
