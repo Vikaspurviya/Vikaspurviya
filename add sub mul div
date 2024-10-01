@@ -1,0 +1,16 @@
+clude <stdio.h>
+
+int main()
+{ int a,b,add,sub,mul, division;
+    printf("Enter the value of a & b");
+    scanf("%d%d",&a,&b);
+    add=a+b;
+    printf("Adding two value:=%d",add);
+    sub=a-b;
+    printf("\nSubtracting two value:=%d",sub);
+    mul=a*b;
+    printf("\nmultiplying two value:=%d",mul);
+    division=a/b;
+    printf("\nDividing two value:=%d", division);
+    return 0;
+}
