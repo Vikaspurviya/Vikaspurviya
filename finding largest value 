@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main()
+{ int a,b,c;
+    printf("Enter the value a,b & c:");
+    scanf("%d%d%d",&a,&b,&c);
+    if(a>b)
+    if(a>c) {
+    printf("a is the largest number %d",a);
+    }
+    if(b>a)
+    if(b>c){
+    printf("b is the largest number %d",b);
+    }
+    if(c>a)
+    if(c>b){
+    printf("c is the largest number %d",c);
+    }
+    
+    return 0;
+}
