@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main()
+{ int a=1;
+    printf("Enter the value a:");
+     scanf("%d",&a);
+     while(a<=10)
+    { printf("2*%d=%d\n",a,2*a);
+     a++;
+    }
+    printf("outside while ");
+    return 0;
+}
