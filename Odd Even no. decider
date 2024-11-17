@@ -7,7 +7,7 @@ int main()
    if(n%2==0){
     printf("Even no.");
    }
-   if(n%2!=0){
+   else{
     printf("Odd no.");
    }
     return 0;
