@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main()
+{ int ajay,shyam,ram;
+    printf("Enter the age of ajay:");
+    scanf("%d",&ajay);
+    printf("Enter the age of shyam:");
+    scanf("%d",&shyam);
+   printf("Enter the age of ram:");
+   scanf("%d",&ram);
+   if(ajay<shyam){
+    if(ajay<ram)
+    printf("ajay is youngest");
+    else
+    printf("ram is youngest ");
+   }
+   else { if(shyam<ram)
+    printf("shyam is youngest ");
+    else
+    printf("ram is youngest ");
+   }
+    return 0;
+}
