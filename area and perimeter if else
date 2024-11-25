@@ -12,9 +12,12 @@ int main()
     if(area>perimeter){
     printf("area is greater than perimeter ");
     }
-    else{
+    else if (area<perimeter){
     printf("perimeter is greater than area");
     }
-    
+    else{
+    printf("Area and its perimeter is equal");
+    }
+
     return 0;
 }
