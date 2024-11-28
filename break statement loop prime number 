@@ -9,7 +9,10 @@ int main()
       if(n%i==0)
        a=1;
        break;}
-     if(a==0){
+      if(n==1){
+      printf("1 is neither is prime nor composite ");
+      }
+     else if(a==0){
      printf("The given no. is prime:");}
     else{
     printf("The given no. is composite:");}
