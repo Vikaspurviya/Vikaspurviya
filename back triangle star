@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main()
+{ int r;
+    printf("Enter the no. of rows:");
+    scanf("%d",&r);
+  int  nst=r;
+ int   nsp=0;
+    for(int i=1;i<=r;i++){
+    for(int j=1;j<=nsp;j++){
+     printf(" ");}
+    for(int k=1;k<=nst;k++){
+       printf("*");
+    }
+    nst--;
+    nsp++;
+    
+    printf("\n");}
+
+    return 0;
+}
