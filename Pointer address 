@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main()
+{ int a;
+int* x=&a;
+    printf("%p\n",x);
+    printf("%p",&x);
+    return 0;
+}
