@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() 
+{  int n;
+    printf("Enter the size of arry:");
+    scanf("%d",&n);
+    int arry[n];
+  for(int i=0;i<=n-1;i++){
+    scanf("%d",&arry[i]);
+    }
+    for(int i=0;i<=n-1;i++){
+   printf("%d ",arry[i]);
+ }
+
+    return 0;
+}
