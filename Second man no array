@@ -9,7 +9,7 @@ int main()
          smax=max;
          max=arry[i];
      }
-     else if(smax<arry[i]){
+     else if(smax<arry[i] && max!=arry[i]){
        smax=arry[i];
      }
   }
