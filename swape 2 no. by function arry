@@ -1,0 +1,14 @@
+#include <stdio.h>
+void swape(int x[]){
+  int temp=x[0];
+      x[0]=x[1];
+      x[1]=temp;
+      return;
+}
+int main()
+{  int arry[2]={9,2};
+   printf("%d %d \n",arry[0],arry[1]);
+   swape(arry);
+   printf("%d %d",arry[0],arry[1]);
+    return 0;
+}
