@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include<limits.h>
+int main()
+{ int arry[5] = {-5,4,-6,-7,-8,};
+  int max=INT_MIN;
+  for(int i=1;i<=4;i++){
+     if(max<arry[i]){
+         max=arry[i];
+     }
+  }
+     printf("%d",max);
+  
+    
+
+    return 0;
+}
