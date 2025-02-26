@@ -1,0 +1,24 @@
+#include <stdio.h>
+int palindrome(int arry[]){
+   int i=0;
+   int j=9;
+   while(i<j){
+     if(arry[i]!=arry[j]){
+       return 0;
+     }
+      i++;
+     j--;
+   } 
+   return 1;
+}
+int main()
+{ int arry[10]={1,2,3,4,5,6,7,8,9,10};
+   palindrome(arry);
+  if(palindrome (arry)){
+    printf("It is palindrome\n ");
+  }
+  else{
+    printf("It is not palindrome ");
+  }
+    return 0;
+}
