@@ -4,7 +4,7 @@ int isPalindrome(int arry[], int n) {
     int j = n - 1;
     
     while (i < j) {
-     if (arry[i] != arry[j]){      return 0; // Not a palindrome
+     if (arry[i] != arry[j]){      return 0; 
         }
         i++;
         j--;
