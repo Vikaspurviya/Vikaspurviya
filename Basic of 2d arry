@@ -11,7 +11,7 @@ int main()
  
     for(int i=0;i<r;i++){
      for(int j=0;j<c;j++){
-    printf("Enter no. of Enter the elements of arrys:");
+    printf("Enter no. of  the elements of arrys:");
     scanf("%d",&arry[i][j]);
      }
     }
