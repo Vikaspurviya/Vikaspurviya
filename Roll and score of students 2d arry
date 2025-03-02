@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+int main() {
+    int r;
+    printf("Enter the number of students: ");
+    scanf("%d", &r);
+    int c = 4;
+    int arr[r][c]; 
+    for (int i = 0; i < r; i++) {
+        printf("\nEnter details for Student %d:\n", i + 1);
+        printf("Enter Roll No: ");
+        scanf("%d", &arr[i][0]);
+        printf("Enter Physics Marks: ");
+        scanf("%d", &arr[i][1]);
+        printf("Enter Chemistry Marks: ");
+        scanf("%d", &arr[i][2]); 
+        printf("Enter Maths Marks: ");
+        scanf("%d", &arr[i][3]); 
+    }
+    printf("\nStudent Data:\n");
+    printf("Roll No  Physics  Chemistry  Maths\n");
+
+    for (int i = 0; i < r; i++) {
+        for (int j = 0; j < c; j++) {
+            printf("%d\t", arr[i][j]);
+        }
+        printf("\n");
+    }
+
+    return 0;
+}
