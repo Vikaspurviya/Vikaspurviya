@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main()
+{ int r;
+    printf("Enter no. of rows:");
+    scanf("%d",&r);
+    int c;
+    printf("Enter no. of rows:");
+    scanf("%d",&c);
+    int arry[r][c];
+ 
+    for(int i=0;i<r;i++){
+     for(int j=0;j<c;j++){
+    printf("Enter no. of Enter the elements of arrys:");
+    scanf("%d",&arry[i][j]);
+     }
+    }
+    for(int i=0;i<r;i++){
+     for(int j=0;j<c;j++){
+    printf("%d ",arry[i][j]);
+     }
+     printf("\n");
+    }
+    return 0;
+}
