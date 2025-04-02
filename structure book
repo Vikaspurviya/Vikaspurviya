@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <string.h>
+int main()
+{ struct book{
+  char name[50];
+  float price;
+  int noOfpages;
+}a,b,c;
+    a.price=100;
+    a.noOfpages=120;
+    strcpy(a.name,"Secret seven");
+    printf("%f\n",a.price);
+    printf("%d\n",a.noOfpages);
+    printf("%s\n",a.name);
+    return 0;
+}
